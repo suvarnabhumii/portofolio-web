@@ -8,7 +8,7 @@ const homeTranslations = {
     "nav-contact": "Kontak",
     "get-in-touch": "Hubungi Saya",
     "hero-label": "Specialist Programmer",
-    "hero-title-h1": "Suvarna<br><em>Bhumi</em>",
+    "hero-title-h1": "<h1>Suvarna<br><em>Bhumi</em></h1>",
     "hero-description": "Saya bersemangat dalam bidang teknologi, selalu mengikuti perkembangan terbaru dan siap belajar, berkontribusi, dan tumbuh bersama komunitas yang luar biasa.",
     "download-cv": "Unduh CV",
     "scroll-text": "Lihat Karya",
