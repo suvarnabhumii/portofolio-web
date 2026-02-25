@@ -1,4 +1,4 @@
-My Portofolio Website
+My Portfolio Website
 
-You can access it here
-https://portofolio-gilang-surya-ramadhan.vercel.app/
+You can access it here:
+https://suvarna-bhumi.vercel.app/
