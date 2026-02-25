@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="img/me-bulat.png">
+  <title>Suvarna Bhumi — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://kit.fontawesome.com/6fc9985251.js" crossorigin="anonymous"></script>
+  <meta name="description" content="Suvarna Bhumi — Specialist Programmer & Web Developer">
+</head>
+<body>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <div class="menu-overlay" id="menuOverlay"></div>
+
+  <header id="header">
+    <nav>
+      <div class="logo">
+        <div class="logo-circle"><img src="img/me-bulat.png" alt="SB"></div>
+        <span data-translate="name">Suvarna Bhumi</span>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <ul>
+          <li><a href="#work" data-translate="nav-work">Work</a></li>
+          <li><a href="#about" data-translate="nav-about">About</a></li>
+          <li><a href="#education" data-translate="nav-education">Education</a></li>
+          <li><a href="#contact" data-translate="nav-contact">Contact</a></li>
+          <li class="nav-controls">
+            <button class="theme-toggle" id="themeToggle" title="Toggle Theme">
+              <i class="fas fa-moon"></i>
+            </button>
+            <button class="lang-toggle" id="langToggle" title="Switch Language">EN</button>
+          </li>
+          <li><a href="#contact" class="btn-primary" data-translate="get-in-touch">Get in Touch</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content slide-left">
+      <div class="hero-label" data-translate="hero-label">Specialist Programmer</div>
+      <h1 data-translate="hero-title-h1">Suvarna<br><em>Bhumi</em><br>Experiences</h1>
+      <p data-translate="hero-description">Saya bersemangat dalam bidang teknologi, selalu mengikuti perkembangan terbaru dan siap belajar, berkontribusi, dan tumbuh bersama komunitas yang luar biasa.</p>
+      <div class="hero-actions">
+        <button class="btn-primary"><a href="assests/CV.pdf" download="CV.pdf" data-translate="download-cv">Download CV</a></button>
+        <a href="#work" class="hero-scroll" data-translate="scroll-text">Lihat Karya</a>
+      </div>
+    </div>
+    <div class="hero-image slide-right">
+      <div class="hero-image-frame">
+        <img src="img/me.png" alt="Suvarna Bhumi">
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="stat-num">3+</div>
+          <div class="stat-label" data-translate="stat-projects">Projects</div>
+        </div>
+        <div>
+          <div class="stat-num">11</div>
+          <div class="stat-label" data-translate="stat-grade">Grade</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-header">
+      <span class="section-num">01</span>
+      <h2 data-translate="about-title">About Me</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-layout">
+      <div class="about-text fade-in">
+        <p data-translate="about-description">Saya adalah <span>siswa SMK Telkom Purwokerto</span>, saat ini duduk di kelas 11. Di sekolah saya mempelajari pengembangan website, aplikasi, dan machine learning. Pernah membuat website menggunakan <span>HTML, CSS, dan JavaScript</span>, serta mempelajari <span>Laravel dan Kotlin</span>.</p>
+        <div class="about-tags">
+          <span class="about-tag">Web Dev</span>
+          <span class="about-tag">Laravel</span>
+          <span class="about-tag">Machine Learning</span>
+          <span class="about-tag">Mobile Dev</span>
+        </div>
+      </div>
+      <div class="about-visual fade-in">
+        <p class="about-quote" data-translate="about-quote">"Teknologi adalah alat; kreativitas adalah kekuatan yang menggerakkannya."</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <h2 data-translate="education-title">Education</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="education-grid">
+      <div class="education-item fade-in">
+        <div class="edu-num">01</div>
+        <h3>SD Islam Al-Azhar 39 Purwokerto</h3>
+        <div class="edu-year">2015 – 2021</div>
+        <p class="desc" data-translate="edu-sd">Pendidikan dasar yang membentuk fondasi akademik dan karakter.</p>
+      </div>
+      <div class="education-item fade-in">
+        <div class="edu-num">02</div>
+        <h3>SMP Telkom Purwokerto</h3>
+        <div class="edu-year">2021 – 2024</div>
+        <p class="desc" data-translate="edu-smp">Pendidikan menengah pertama dengan orientasi teknologi di SMP Telkom Purwokerto.</p>
+      </div>
+      <div class="education-item fade-in">
+        <div class="edu-num">03</div>
+        <h3>SMK Telkom Purwokerto</h3>
+        <div class="edu-year">2024 – 2027</div>
+        <p class="desc" data-translate="edu-smk">Rekayasa Perangkat Lunak — fokus pengembangan web dan mobile application.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work">
+    <div class="section-header">
+      <span class="section-num">03</span>
+      <h2 data-translate="projects-title">Featured Work</h2>
+      <div class="section-line"></div>
+    </div>
+    <p class="work-intro fade-in" data-translate="projects-subtitle">Pilihan proyek terbaik yang mencerminkan kemampuan teknis dan pendekatan saya dalam membangun produk digital.</p>
+    <div class="projects-grid">
+      <div class="project-card fade-in">
+        <div class="project-img">
+          <img src="img/ai/home.png" alt="AI Image Classifier">
+          <div class="project-overlay">
+            <a href="project/ai.html" class="project-overlay-btn" data-translate="view-case">View Case Study</a>
+          </div>
+        </div>
+        <div class="project-content">
+          <div class="project-idx">Project 01</div>
+          <h3 data-translate="project1-title">AI Image Classifier</h3>
+          <p data-translate="project1-desc">Web Application berbasis AI yang memungkinkan pengguna memprediksi isi gambar secara real-time langsung di browser menggunakan TensorFlow.js.</p>
+          <a href="project/ai.html" class="project-link" data-translate="view-case">View Case Study →</a>
+        </div>
+      </div>
+      <div class="project-card fade-in">
+        <div class="project-img">
+          <img src="img/warnet/home.png" alt="Warnet Booking">
+          <div class="project-overlay">
+            <a href="project/warnet.html" class="project-overlay-btn" data-translate="view-case">View Case Study</a>
+          </div>
+        </div>
+        <div class="project-content">
+          <div class="project-idx">Project 02</div>
+          <h3 data-translate="project2-title">Warnet Booking</h3>
+          <p data-translate="project2-desc">Aplikasi booking internet cafe berbasis Laravel dengan manajemen paket dinamis dan integrasi database relasional yang akurat.</p>
+          <a href="project/warnet.html" class="project-link" data-translate="view-case">View Case Study →</a>
+        </div>
+      </div>
+      <div class="project-card fade-in">
+        <div class="project-img">
+          <img src="img/tarik/awal.png" alt="Tarik Tambang Quiz">
+          <div class="project-overlay">
+            <a href="project/tarik.html" class="project-overlay-btn" data-translate="view-case">View Case Study</a>
+          </div>
+        </div>
+        <div class="project-content">
+          <div class="project-idx">Project 03</div>
+          <h3 data-translate="project3-title">Game Tarik Tambang Quiz</h3>
+          <p data-translate="project3-desc">Game kuis interaktif yang mengadu dua tim dalam kompetisi tug-of-war digital. Setiap jawaban benar menggerakkan tali, menciptakan pengalaman belajar yang seru.</p>
+          <a href="project/tarik.html" class="project-link" data-translate="view-case">View Case Study →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills-section">
+    <div class="section-header">
+      <span class="section-num">04</span>
+      <h2 data-translate="skills-title">Skills</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-row">
+      <span class="skill-tag fade-in"><img src="https://skillicons.dev/icons?i=figma" alt="Figma"/></span>
+      <span class="skill-tag fade-in"><img src="https://skillicons.dev/icons?i=html" alt="HTML"/></span>
+      <span class="skill-tag fade-in"><img src="https://skillicons.dev/icons?i=css" alt="CSS"/></span>
+      <span class="skill-tag fade-in"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript"/></span>
+      <span class="skill-tag fade-in"><img src="https://skillicons.dev/icons?i=php" alt="PHP"/></span>
+      <span class="skill-tag fade-in"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"/></span>
+      <span class="skill-tag fade-in"><img src="https://skillicons.dev/icons?i=git" alt="Git"/></span>
+      <span class="skill-tag fade-in"><img src="https://skillicons.dev/icons?i=python" alt="Python"/></span>
+    </div>
+  </section>
+
+  <!-- CONTACT / FOOTER -->
+  <footer id="contact">
+    <div class="footer-left">
+      <p class="footer-label" data-translate="footer-label">Hubungi Saya</p>
+      <a href="mailto:ariswaluyo297@gmail.com" class="footer-email">ariswaluyo297@gmail.com</a>
+      <p class="footer-copyright" data-translate="footer-text">© 2026 Suvarna Bhumi. All Rights Reserved.</p>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/suvarna-bhumi-2067a0350/">
+        <div class="social-icon"><i class="fa-brands fa-linkedin"></i></div>
+      </a>
+      <a href="mailto:ariswaluyo297@gmail.com">
+        <div class="social-icon"><i class="fa-regular fa-envelope"></i></div>
+      </a>
+      <a href="https://github.com/suvarnabhumii">
+        <div class="social-icon"><i class="fa-brands fa-github"></i></div>
+      </a>
+      <a href="https://www.instagram.com/svrnn19">
+        <div class="social-icon"><i class="fa-brands fa-instagram"></i></div>
+      </a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
