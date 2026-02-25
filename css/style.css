@@ -173,7 +173,7 @@ nav {
   min-height: 100vh; display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1400px; margin: 0 auto;
-  padding: 0 60px; align-items: center; gap: 80px;
+  padding: 100px 60px 60px; align-items: center; gap: 80px;
 }
 
 .hero-label {
@@ -222,6 +222,7 @@ nav {
 
 .hero-image-frame {
   position: relative; border: 1px solid var(--border); overflow: hidden;
+  max-height: 75vh;
 }
 
 .hero-image-frame::before {
@@ -236,7 +237,11 @@ nav {
   border: 1px solid var(--border); z-index: -1;
 }
 
-.hero-image img { width: 100%; display: block; filter: grayscale(20%); transition: filter 0.5s; }
+.hero-image img {
+  width: 100%; height: 100%; display: block;
+  object-fit: cover; object-position: top center;
+  filter: grayscale(20%); transition: filter 0.5s;
+}
 .hero-image:hover img { filter: grayscale(0%); }
 
 .hero-stats {
